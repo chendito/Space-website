@@ -22,8 +22,9 @@ body {
 
 .navigation {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
+    z-index: 999;
 }
 .navigation a {
     text-decoration: none;
@@ -46,15 +47,16 @@ body {
     justify-content: center;
     align-items: center;
     column-gap: 10px;
+    margin-top: 30px;
+    padding: 50px;
 }
 
 .img__moon--lunita {
-    margin-top: 30px;
-    padding: 20px;
     animation: 25s rotate linear infinite;
     -webkit-animation: 25s rotate linear infinite;
     transform-origin: 50% 50%;
     -webkit-transform-origin: 50% 50%;
+    border-radius: 50%;
 }
 @keyframes rotate {
     from {transform: rotate(0deg);}
