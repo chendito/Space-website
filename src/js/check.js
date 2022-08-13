@@ -1,11 +1,11 @@
 /*-----------------------------------------------------------------------------------
     Name: Moon Site
-    Theme URI: @chendito
+    Theme URI: @chendoio
     Description: Web Site - Portfolio - Chendo
-    Author: @chendito - chendo : developer and web designer
-    Author URI: http://chendo.io - https://chendito.com
-    Github: https://github.com/chendito
-    Youtube: https://youtube.com/chendito
+    Author: @chendoio - chendo : developer and web designer
+    Author URI: http://chendo.io
+    Github: https://github.com/chendoio
+    Youtube: https://youtube.com/chendoio
 
 //   Important:
 //   Background images and planets taken from frontend mentor open source project :)

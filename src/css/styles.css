@@ -11,6 +11,7 @@
 //   Background images and planets taken from frontend mentor open source project :)
 -----------------------------------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;900&display=swap');
 
 * {
@@ -523,7 +524,7 @@ main {
     max-width: 500px;
     user-select: none;
 }
-.form input, textarea {
+.form input, textarea, button {
     -webkit-backdrop-filter: saturate(120%) blur(10px);
     backdrop-filter: saturate(120%) blur(5px);
     background-color: rgba(255, 255, 255, .01);
@@ -543,13 +544,13 @@ main {
     outline: none; 
 }
 label {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Kdam Thmor Pro', sans-serif;
     text-transform: uppercase;
     font-weight: normal;
     color: #fff;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
     align-self: flex-start;
-    font-size: 1em;
+    font-size: .7em;
     margin-left: .5em;
 }
 textarea {
@@ -562,19 +563,19 @@ textarea {
 }
 /*Enviar ============================*/
 #submit {
-    font-family: 'Courier New', Courier, monospace;
-    text-transform: uppercase;
-    letter-spacing: .2em;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
     box-shadow: none;
-    font-size: .6em;
-    font-weight: 700;
+    font-size: .5em;
     width: 7em;
     max-width: 100%;
     cursor: pointer;
     border: 1px groove rgba(255, 255, 255, .1);
-    box-shadow: 1.5px 1.5px 1px rgba(0, 0, 0, 0.7);
-    margin-top: 2em;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    text-shadow: 1px 1px 1px #000;
+    margin-top: 1em;
 }
 @media (min-width: 768px) {
     #submit {
